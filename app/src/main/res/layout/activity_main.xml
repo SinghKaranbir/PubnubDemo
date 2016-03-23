@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spartan.karanbir.pubnubdemo.MainActivity">
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+    <ListView
+        android:id="@+id/message_list"
+        android:layout_below="@id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:weightSum="3">
+        <EditText
+                android:id="@+id/message_edittext"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint"
+                android:layout_weight="2"
+                android:minHeight="20dp"/>
+            <ImageButton
+                android:id="@+id/send_button"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_send"
+                />
+        </LinearLayout>
+
+
+</RelativeLayout>

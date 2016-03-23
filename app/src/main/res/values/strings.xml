@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PubNubDemo</string>
+    <string name="pubnub_publish_key">pub-c-a772df76-3ac0-486c-b0c4-6aa499c43878</string>
+    <string name="pubnub_subscribe_key">sub-c-3cc43602-ed4c-11e5-be6a-02ee2ddab7fe</string>
+    <string name="hint">Enter Message Here</string>
+    <string name="hint_username">Set Username here</string>
+    <string name="join_button">Join</string>
+</resources>
